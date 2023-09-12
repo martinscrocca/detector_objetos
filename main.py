@@ -94,8 +94,8 @@ cv2.setMouseCallback('RGB', RGB)
 
 # Abre un archivo de video llamado 'vidp.mp4' para procesar los fotogramas.
 #cap = cv2.VideoCapture(0)
-cap = cv2.VideoCapture('imou2.mp4')
-#cap = cv2.VideoCapture(os.getenv('url'))
+#cap = cv2.VideoCapture('imou2.mp4')
+cap = cv2.VideoCapture(os.getenv('url'))
 
 # Abre y lee el contenido de un archivo de texto llamado "coco.txt".
 my_file = open("coco.txt", "r")
